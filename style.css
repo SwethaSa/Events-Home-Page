@@ -1,0 +1,110 @@
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+.container{
+    border: 2px solid none;
+    margin-top: 1cm;
+    
+    
+}
+
+img{
+    border: 2px solid none;
+    height: 180px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+   
+}
+
+h4{
+    text-align: center;
+   
+}
+
+
+
+.form-outline{
+    margin-left: 13cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   text-align: center;
+}
+
+.form-control::placeholder{
+    text-align: center;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+.text{
+    float:right;
+    padding: 10px;
+    
+}
+
+.Event1, .Event2, .Event3, .Event4, .Event5, .Event6, .Event7, .Event8{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 1cm;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right,#aa076b,   #61045f);
+
+}
+
+
+
+@media screen and (max-width: 1399px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Event1, .Event2, .Event3, .Event4, .Event5, .Event6, .Event7, .Event8{
+        border: 2px solid black;
+        width: 320px;
+        margin-top: 1cm;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid-container{
+        display:contents;
+    }
+    .Event1, .Event2, .Event3, .Event4, .Event5, .Event6, .Event7, .Event8{
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .grid-container{
+        display:contents;
+    }
+    .Event1, .Event2, .Event3, .Event4, .Event5, .Event6, .Event7, .Event8{
+        margin:auto;
+    } 
+}
+
